@@ -8,7 +8,7 @@ LABEL maintainer="LROSE <lrose-help@lists.colostate.edu>"
 
 # See https://github.com/NCAR/lrose-core/releases
 # LROSE parameters
-ENV LROSE_RELEASE="lrose-core-20250105" \
+ENV LROSE_RELEASE="lrose-core-20250811" \
     LROSE_TARGET_OS="ubuntu_24.04" \
     LROSE_TARGET_ARCH="amd64" \
     PATH="/usr/local/lrose/bin:/share/lrose-nightly/bin:$PATH" \

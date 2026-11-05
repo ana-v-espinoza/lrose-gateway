@@ -42,8 +42,6 @@ RUN apt-get update --yes && \
     git clone https://github.com/novnc/novnc --depth=1 ${NOVNC_DIR} && \
     chown -R 1000:100 ${NOVNC_DIR}
 
-USER ${NB_UID}
-
 ADD /environment.yml /tmp
 
 # combine the RUN commands, to prevent intermediate docker images;

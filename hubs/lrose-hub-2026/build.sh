@@ -36,7 +36,7 @@ do
     shift # past argument or value
 done
 
-FULL_TAG="nfslrose/$IMAGE_NAME:$TAG"
+FULL_TAG="nsflrose/$IMAGE_NAME:$TAG"
 
 # Build the Docker image
 echo "Building Docker image with tag: $FULL_TAG"
